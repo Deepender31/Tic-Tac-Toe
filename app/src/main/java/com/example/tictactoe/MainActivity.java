@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if(!((Button)v).getText().toString().endsWith("")){
+        if(!((Button)v).getText().toString().equals("")){
             return;}else{
          if (player_1_turn){
             ((Button)v).setText("X");
